@@ -1,0 +1,37 @@
+:root {
+    --color-black: #000000;
+    --color-light-gray: #f5f5f7;
+    --color-near-black: #1d1d1f;
+    --color-apple-blue: #0071e3;
+    --color-link-blue: #0066cc;
+    --color-bright-blue: #2997ff;
+    --color-white: #ffffff;
+    --color-text-secondary: rgba(0, 0, 0, 0.8);
+    --color-text-tertiary: rgba(0, 0, 0, 0.48);
+    --color-dark-surface-1: #272729;
+    --color-dark-surface-2: #262628;
+    --color-dark-surface-3: #28282a;
+    --color-button-active: #ededf2;
+    --color-button-default-light: #fafafc;
+    --color-overlay: rgba(210, 210, 215, 0.64);
+    --color-white-32: rgba(255, 255, 255, 0.32);
+    --shadow-card: rgba(0, 0, 0, 0.22) 3px 5px 30px 0px;
+    --shadow-focus: 0 0 0 2px #0071e3;
+
+    --font-display: 'SF Pro Display', 'SF Pro Icons', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+    --font-text: 'SF Pro Text', 'SF Pro Icons', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+
+    --radius-micro: 5px;
+    --radius-standard: 8px;
+    --radius-comfortable: 11px;
+    --radius-large: 12px;
+    --radius-pill: 980px;
+    --radius-circle: 50%;
+
+    --spacing-unit: 8px;
+    --nav-height: 48px;
+    --max-content-width: 980px;
+
+    --transition-fast: 0.15s ease;
+    --transition-normal: 0.25s ease;
+}

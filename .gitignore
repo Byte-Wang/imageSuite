@@ -1,0 +1,14 @@
+# Storage
+/storage/logs/*
+!/storage/logs/.gitkeep
+/storage/output/*
+!/storage/output/.gitkeep
+/storage/uploads/*
+!/storage/uploads/.gitkeep
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Config
+# config/providers.php

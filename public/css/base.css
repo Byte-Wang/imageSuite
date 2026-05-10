@@ -1,0 +1,96 @@
+*, *::before, *::after {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    font-size: 16px;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+body {
+    font-family: var(--font-text);
+    font-size: 17px;
+    font-weight: 400;
+    line-height: 1.47;
+    letter-spacing: -0.374px;
+    color: var(--color-near-black);
+    background-color: var(--color-light-gray);
+    min-height: 100vh;
+}
+
+a {
+    color: var(--color-link-blue);
+    text-decoration: none;
+    transition: color var(--transition-fast);
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-family: var(--font-display);
+    font-weight: 600;
+    line-height: 1.1;
+    color: var(--color-near-black);
+}
+
+h1 {
+    font-size: 56px;
+    letter-spacing: -0.28px;
+    line-height: 1.07;
+}
+
+h2 {
+    font-size: 40px;
+    line-height: 1.10;
+}
+
+h3 {
+    font-size: 28px;
+    font-weight: 400;
+    letter-spacing: 0.196px;
+    line-height: 1.14;
+}
+
+h4 {
+    font-size: 21px;
+    font-weight: 700;
+    letter-spacing: 0.231px;
+    line-height: 1.19;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+}
+
+input, select, textarea, button {
+    font-family: inherit;
+    font-size: inherit;
+}
+
+::selection {
+    background: var(--color-apple-blue);
+    color: var(--color-white);
+}
+
+::-webkit-scrollbar {
+    width: 8px;
+}
+
+::-webkit-scrollbar-track {
+    background: transparent;
+}
+
+::-webkit-scrollbar-thumb {
+    background: rgba(0, 0, 0, 0.15);
+    border-radius: 4px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+    background: rgba(0, 0, 0, 0.3);
+}
