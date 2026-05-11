@@ -5,7 +5,6 @@ const App = {
         Router.register('analyze', () => AnalyzePage.render());
         Router.register('generate', () => GeneratePage.render());
         Router.register('video', () => VideoPage.render());
-        Router.register('settings', () => SettingsPage.render());
 
         Router.init();
 
